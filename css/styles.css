@@ -23,17 +23,17 @@ body {
     margin: 1.5em;
     background-color: Khaki;
     border: 1px solid black;
-    height: 10em;
     overflow: hidden;
     font-family: sans-serif;
     border-radius: 0px 10px;
+    text-align: center;
+    padding-bottom: 2em;
 }
 
 .card > h3 {
     margin-top: 0;
     float: right;
     width: 8em;
-    text-align: center;
     color: Black;
     border-bottom: inherit;
     border-left: inherit;
@@ -45,7 +45,6 @@ body {
     width: 80%;
     margin: auto;
     color: black;
-    text-align: left;
     clear: both;
 }
 
@@ -59,6 +58,9 @@ body {
     float: left;
     width: 33.33%;
   }
+  .card {
+      height: 14em;
+  }
 }
 
 /********** Tablet only **********/
@@ -71,5 +73,8 @@ body {
   }
   .col-tab-12 {
     width: 100%;
+  }
+  .card {
+      height: 12em;
   }
 }
